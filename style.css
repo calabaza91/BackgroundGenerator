@@ -9,19 +9,42 @@ body {
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: uppercase;
+		font-size: 3.2rem;
+		font-weight: 600;
     letter-spacing: .5em;
     width: 100%;
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+		font-size: 1em;
+		font-weight: 900;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
+		margin-bottom: 12%;
 
 }
+
+#random{
+	font-size: 2rem;
+	padding: 2% 10%;
+	border: black solid 5px;
+	border-radius: 2%;
+	background-color: rgba(0,0,0,.2);
+	color: rgba(0,0,0,.8);
+
+
+}
+
+#random:hover{
+	background-color: rgba(0,0,0,.5);
+}
+
+/*Add this later
+@media screen and (max-width: 571px){
+		h1{
+				letter-spacing: .2rem;
+				font-size: 2.75rem;
+		}
+} */
